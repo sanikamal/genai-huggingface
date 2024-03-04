@@ -43,5 +43,3 @@ Practical AI solutions using open-source models available on the Hugging Face Hu
 ## Feedback and Contributions
 
 Feedback and contributions are welcome! Feel free to submit issues or pull requests to improve the project.
-
-Feel free to further customize this README to better fit your project and showcase your expertise!
