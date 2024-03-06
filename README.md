@@ -1,21 +1,20 @@
 #  Practical AI Solutions and Generative AI Applications with Hugging Face Models and Gradio 🤖🚀
+
 ## Overview
 This repository contains Practical AI solutions and generative AI applications using open-source models available on the Hugging Face Hub. Through a series of mini projects and notebooks to showcase the practical applications of Hugging Face's transformers library for various tasks including Natural Language Processing (NLP), audio processing, image analysis, and multimodal tasks. The applications are built with Gradio to provide user-friendly interfaces.
 
 ## Notebooks
 
 ### Chatbot 🤖
-- **Description**: Build a chatbot capable of multi-turn conversations.
-- **Implementation**: Use a small language model from Hugging Face Hub and integrate it with a chat interface.
-- **Notebook**: [Chatbot Notebook](notebooks/chatbot.ipynb)
+- **Description**: Build a chatbot capable of multi-turn conversations. Use a small language model from Hugging Face Hub.
+- **Notebook**: [Chatbot Notebook](notebooks/NLP_chatbot_pipeline.ipynb)
 
-
-### Translation and Summarization
-- **Description**: Translate between languages, summarize documents, and measure text similarity.
-- **Implementation**: Use Hugging Face models for translation and summarization tasks.
+### Translation and Summarization 🌍
+- **Description**: Translate between languages and summarize. Use Hugging Face models from Meta for translation and summarization tasks.
+- **Notebook**: [Translation and Summarization Notebook](notebooks/translation_and_summarization.ipynb)
 
 ### Audio Conversion
-- **Description**: Convert audio to text with Automatic Speech Recognition (ASR) and generate audio from text using Text to Speech (TTS).
+- **Description**: Convert audio to text with Automatic Speech Recognition (ASR) and generate audio from text using text-to-speech (TTS).
 - **Implementation**: Use Hugging Face models for ASR and TTS.
 
 ### Zero-shot Audio Classification
@@ -34,12 +33,6 @@ This repository contains Practical AI solutions and generative AI applications u
 - **Description**: Share your AI applications using Gradio and Hugging Face Spaces for user-friendly cloud deployment.
 - **Implementation**: Create a simple interface with Gradio and deploy it using Hugging Face Spaces.
 
-
-
-### Translation and Summarization 🌍
-- **Description**: Translate between languages, summarize documents, and measure text similarity.
-- **Implementation**: Use Hugging Face models for translation and summarization tasks.
-- **Notebook**: [Translation and Summarization Notebook](notebooks/translation_summarization.ipynb)
 
 ### Image Captioning 📷
 - **Description**: Upload an image and generate a caption for it using an image captioning model.
@@ -76,17 +69,7 @@ This repository contains Practical AI solutions and generative AI applications u
 - **Implementation**: Create a simple interface with Gradio and deploy it using Hugging Face Spaces.
 - **Notebook**: [Deployment with Gradio Notebook](notebooks/deployment_with_gradio.ipynb)
 
-
 ### Mini Projects
-1. 🤖 **Chatbot**
-   - **Description**: Build a chatbot capable of multi-turn conversations.
-   - **Implementation**: Use a small language model from Hugging Face Hub and integrate it with a chat interface.
-   - [Link to Notebook](chatbot/chatbot.ipynb)
-
-2. 🌐 **Translation and Summarization**
-   - **Description**: Translate between languages, summarize documents, and measure text similarity.
-   - **Implementation**: Use Hugging Face models for translation and summarization tasks.
-   - [Link to Notebook](translation_summarization/translation_summarization.ipynb)
 
 3. 🔊 **Audio Conversion**
    - **Description**: Convert audio to text with ASR and generate audio from text using TTS.
