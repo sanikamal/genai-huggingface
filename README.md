@@ -21,31 +21,43 @@ This repository contains Practical AI solutions and generative AI applications u
 - **Description**: Perform audio classification without fine-tuning the model. Use Hugging Face audio classification pipeline from 🤗 Transformers Library
 - **Notebook**: [Zero-shot Audio Classification Notebook](notebooks/zero-shot_audio_classification.ipynb)
 
-### Audio Conversion
-- **Description**: Convert audio to text with Automatic Speech Recognition (ASR) and generate audio from text using text-to-speech (TTS).
-- **Implementation**: Use Hugging Face models for ASR and TTS.
+### Automatic Speech Recognition 🎧
+- **Description**: Convert audio to text with Automatic Speech Recognition (ASR). Use Hugging Face automatic speech recognition pipeline from 🤗 Transformers Library and whisper model.
+- **Notebook**: [Automatic Speech Recognition Notebook](notebooks/automatic_speech_recognition.ipynb)
 
-### Zero-shot Audio Classification
-- **Description**: Perform audio classification without fine-tuning the model.
-- **Implementation**: Use Hugging Face models for zero-shot learning.
+### Text to Speech 🎧
+- **Description**: Generate audio from text using text-to-speech (TTS). Use Hugging Face to build the text-to-speech pipeline using 🤗 Transformers Library
+- **Notebook**: [Text to Speech Notebook](notebooks/text_to_speech.ipynb)
 
-### Audio Descriptions for Images
-- **Description**: Generate audio narrations describing images using object detection and TTS.
-- **Implementation**: Use Hugging Face models for object detection and TTS.
+### Object Detection Audio Descriptions for Images 🔊
+- **Description**: Generate audio narrations describing images using object detection and TTS. Use Hugging Face models for object detection and TTS.
+- **Notebook**: [Audio Descriptions for Images Notebook](notebooks/object_detection.ipynb)
+- 
+### Image Segmentation 🖼️
+- **Description**: Identify objects or regions in an image using zero-shot image segmentation. Use the Hugging Face SAM model from Meta for image segmentation and Depth Estimation with DPT.
+- **Notebook**: [Image Segmentation Notebook](notebooks/segmentation.ipynb)
 
-### Image Segmentation
-- **Description**: Identify objects or regions in an image using zero-shot image segmentation.
-- **Implementation**: Use Hugging Face models for image segmentation.
-
-### Deployment with Gradio and Hugging Face Spaces
-- **Description**: Share your AI applications using Gradio and Hugging Face Spaces for user-friendly cloud deployment.
-- **Implementation**: Create a simple interface with Gradio and deploy it using Hugging Face Spaces.
-
-
+### Image Retrieval 🖼️
+- **Description**: Image Retrieval using the Salesforce blip model from Hugging Face.
+- **Notebook**: [Image Retrieval Notebook](notebooks/image_retrieval.ipynb)
+  
 ### Image Captioning 📷
-- **Description**: Upload an image and generate a caption for it using an image captioning model.
-- **Implementation**: Use Hugging Face models for image captioning.
+- **Description**: Upload an image and generate a caption for it using an image captioning model. Use the Salesforce blip model from Hugging Face.
 - **Notebook**: [Image Captioning Notebook](notebooks/image_captioning.ipynb)
+
+### Multimodel Visual Question & Answering 🖼️
+- **Description**: Multimodel Visual Question & Answering using the Salesforce blip model from Hugging Face.
+- **Notebook**: [Multimodel Visual QA Notebook](notebooks/visual_q_and_a.ipynb)
+
+### Zero-Shot Image Classification 🖼️
+- **Description**: Perform image classification without fine-tuning the model using the OpenAI clip model from Hugging Face.
+- **Notebook**: [Multimodel Visual QA Notebook](notebooks/zero_shot_image_classification.ipynb)
+
+## Deployment with Gradio and Hugging Face Spaces ☁️
+- **Description**: Share AI applications using Gradio and Hugging Face Spaces for user-friendly cloud deployment. Create a simple interface with Gradio and deploy it using Hugging Face Spaces.
+- **Notebook**: [Deployment with Gradio Notebook](notebooks/hf_deployment.ipynb)
+
+## Mini Projects
 
 ### Text-to-Image Generation 🎨
 - **Description**: Generate an image from text using a diffusion model.
@@ -59,22 +71,8 @@ This repository contains Practical AI solutions and generative AI applications u
 
 
 
-### Audio Descriptions for Images 🔊
-- **Description**: Generate audio narrations describing images using object detection and Text-to-Speech (TTS).
-- **Implementation**: Use Hugging Face models for object detection and TTS.
-- **Notebook**: [Audio Descriptions for Images Notebook](notebooks/audio_descriptions.ipynb)
 
-### Image Segmentation 🖼️
-- **Description**: Identify objects or regions in an image using zero-shot image segmentation.
-- **Implementation**: Use Hugging Face models for image segmentation.
-- **Notebook**: [Image Segmentation Notebook](notebooks/image_segmentation.ipynb)
 
-## Deployment with Gradio and Hugging Face Spaces ☁️
-- **Description**: Share your AI applications using Gradio and Hugging Face Spaces for user-friendly cloud deployment.
-- **Implementation**: Create a simple interface with Gradio and deploy it using Hugging Face Spaces.
-- **Notebook**: [Deployment with Gradio Notebook](notebooks/deployment_with_gradio.ipynb)
-
-### Mini Projects
 
 3. 🔊 **Audio Conversion**
    - **Description**: Convert audio to text with ASR and generate audio from text using TTS.
@@ -106,10 +104,6 @@ This repository contains Practical AI solutions and generative AI applications u
    - **Implementation**: Combine image captioning and generation using Hugging Face models.
    - [Link to Notebook](image_captioning_generation/image_captioning_generation.ipynb)
 
-9. 🚀 **Deployment with Gradio and Hugging Face Spaces**
-   - **Description**: Share your AI applications using Gradio and Hugging Face Spaces for user-friendly cloud deployment.
-   - **Implementation**: Create a simple interface with Gradio and deploy it using Hugging Face Spaces.
-   - [Link to Notebook](deployment_with_gradio_huggingface_spaces/deployment_with_gradio_huggingface_spaces.ipynb)
 
 1. **Text Summarization App** 📄
    - Create a user-friendly app (usable for non-coders) to take input text, summarize it with an open-source large language model, and display the summary.
@@ -140,21 +134,6 @@ This repository contains Practical AI solutions and generative AI applications u
 
 5. **Chat Interface with Open Source LLM** 💬
    - Create an interface to chat with an open-source Large Language Model using Falcon.
-  
-### 1. Text Summarization App
-Create a user-friendly app (usable for non-coders) to take input text, summarize it with an open-source large language model, and display the summary.
-
-### 2. Image Captioning App
-Create an app that allows the user to upload an image, which uses an image to text (image captioning) to describe the uploaded image, and display both the image and the caption in the app.
-
-### 3. Image Generation App
-Create an app that takes text and generates an image with a diffusion model, then displays the generated image within the app.
-
-### 4. Combined Image Captioning and Generation App
-Combine what you learned in the previous two lessons: Upload an image, caption the image, and use the caption to generate a new image.
-
-### 5. LLM Chat Interface App
-Create an interface to chat with an open-source LLM using Falcon.
 
 ### How to Use
 1. Clone this repository.
