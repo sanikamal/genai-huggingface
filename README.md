@@ -13,6 +13,14 @@ This repository contains Practical AI solutions and generative AI applications u
 - **Description**: Translate between languages and summarize. Use Hugging Face models from Meta for translation and summarization tasks.
 - **Notebook**: [Translation and Summarization Notebook](notebooks/translation_and_summarization.ipynb)
 
+  ### Sentence Embeddings 🌍
+- **Description**: Build the sentence embedding pipeline using 🤗 Transformers Library
+- **Notebook**: [Sentence Embeddings Notebook](notebooks/sentence_embeddings.ipynb)
+
+### Zero-shot Audio Classification 🎧
+- **Description**: Perform audio classification without fine-tuning the model. Use Hugging Face audio classification pipeline from 🤗 Transformers Library
+- **Notebook**: [Zero-shot Audio Classification Notebook](notebooks/zero-shot_audio_classification.ipynb)
+
 ### Audio Conversion
 - **Description**: Convert audio to text with Automatic Speech Recognition (ASR) and generate audio from text using text-to-speech (TTS).
 - **Implementation**: Use Hugging Face models for ASR and TTS.
@@ -49,10 +57,7 @@ This repository contains Practical AI solutions and generative AI applications u
 - **Implementation**: Use Falcon to interact with the LLM.
 - **Notebook**: [Chat with LLM Notebook](notebooks/chat_with_llm.ipynb)
 
-### Zero-shot Audio Classification 🎧
-- **Description**: Perform audio classification without fine-tuning the model.
-- **Implementation**: Use Hugging Face models for zero-shot learning.
-- **Notebook**: [Zero-shot Audio Classification Notebook](notebooks/audio_classification.ipynb)
+
 
 ### Audio Descriptions for Images 🔊
 - **Description**: Generate audio narrations describing images using object detection and Text-to-Speech (TTS).
