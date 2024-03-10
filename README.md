@@ -9,7 +9,7 @@ This repository contains Practical AI solutions and generative AI applications u
 - **Description**: Build a chatbot capable of multi-turn conversations. Use a small language model from Hugging Face Hub.
 - **Notebook**: [Chatbot Notebook](notebooks/NLP_chatbot_pipeline.ipynb)
 
-### Translation and Summarization 🌍
+### Translation and Summarization 📄
 - **Description**: Translate between languages and summarize. Use Hugging Face models from Meta for translation and summarization tasks.
 - **Notebook**: [Translation and Summarization Notebook](notebooks/translation_and_summarization.ipynb)
 
@@ -45,7 +45,7 @@ This repository contains Practical AI solutions and generative AI applications u
 - **Description**: Upload an image and generate a caption for it using an image captioning model. Use the Salesforce blip model from Hugging Face.
 - **Notebook**: [Image Captioning Notebook](notebooks/image_captioning.ipynb)
 
-### Multimodel Visual Question & Answering 🖼️
+### Multimodel Visual Question & Answering 🌅
 - **Description**: Multimodel Visual Question & Answering using the Salesforce blip model from Hugging Face.
 - **Notebook**: [Multimodel Visual QA Notebook](notebooks/visual_q_and_a.ipynb)
 
@@ -70,44 +70,6 @@ This repository contains Practical AI solutions and generative AI applications u
 - **Notebook**: [Chat with LLM Notebook](notebooks/chat_with_llm.ipynb)
 
 
-
-
-
-
-3. 🔊 **Audio Conversion**
-   - **Description**: Convert audio to text with ASR and generate audio from text using TTS.
-   - **Implementation**: Use Hugging Face models for ASR and TTS.
-   - [Link to Notebook](audio_conversion/audio_conversion.ipynb)
-
-4. 🎧 **Zero-shot Audio Classification**
-   - **Description**: Perform audio classification without fine-tuning the model.
-   - **Implementation**: Use Hugging Face models for zero-shot learning.
-   - [Link to Notebook](audio_classification/audio_classification.ipynb)
-
-5. 📷 **Image Segmentation**
-   - **Description**: Identify objects or regions in an image using zero-shot image segmentation.
-   - **Implementation**: Use Hugging Face models for image segmentation.
-   - [Link to Notebook](image_segmentation/image_segmentation.ipynb)
-
-6. 🌐 **Chat with LLM using Falcon**
-   - **Description**: Create an interface to chat with an open-source LLM using Falcon.
-   - **Implementation**: Use Falcon to create a chat interface with a large language model.
-   - [Link to Notebook](chat_with_llm/chat_with_llm.ipynb)
-
-7. 🌅 **Image Generation and Captioning**
-   - **Description**: Generate images from text descriptions and caption images.
-   - **Implementation**: Use Hugging Face models for image generation and captioning.
-   - [Link to Notebook](image_generation_captioning/image_generation_captioning.ipynb)
-
-8. 🔄 **Image Captioning and Generation**
-   - **Description**: Upload an image, caption the image, and use the caption to generate a new image.
-   - **Implementation**: Combine image captioning and generation using Hugging Face models.
-   - [Link to Notebook](image_captioning_generation/image_captioning_generation.ipynb)
-
-
-1. **Text Summarization App** 📄
-   - Create a user-friendly app (usable for non-coders) to take input text, summarize it with an open-source large language model, and display the summary.
-
 2. **Image Captioning App** 🖼️
    - Allow users to upload an image, which uses an image-to-text (image captioning) model to describe the uploaded image, and display both the image and the caption in the app.
 
@@ -131,9 +93,6 @@ This repository contains Practical AI solutions and generative AI applications u
 
 4. **Combined Image and Caption Generation App** 🖼️➡️📝➡️🖼️
    - Upload an image, caption the image, and use the caption to generate a new image, all within the same app.
-
-5. **Chat Interface with Open Source LLM** 💬
-   - Create an interface to chat with an open-source Large Language Model using Falcon.
 
 ### How to Use
 1. Clone this repository.
